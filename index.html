@@ -1,196 +1,183 @@
-<img
-                src="592022075563311918_120.jpg"
-                alt="Étudiants ENSTP"
-            >
+<!DOCTYPE html>
+<html lang="fr">
 
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    </section>
+    <title>Guide d'étudiants d'ENSTP</title>
 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
 
-    <!-- =================================
-         PAGE PRINCIPALE
-    ================================== -->
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
-    <section
-        class="main-page"
-        id="mainPage"
-    >
+        .welcome {
+            min-height: 100vh;
 
-        <header>
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-            <div class="brand">
+            text-align: center;
 
-                <div class="brand-icon">
-                    🎓
-                </div>
+            color: white;
 
-                <span>
-                    Guide d'étudiants d'ENSTP
-                </span>
+            padding: 30px;
 
+            background-image:
+                linear-gradient(
+                    rgba(0, 30, 60, 0.55),
+                    rgba(0, 30, 60, 0.55)
+                ),
+                url("592022075563311913_120.jpg");
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .content {
+            max-width: 800px;
+        }
+
+        .logo {
+            font-size: 60px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin: 10px 0;
+        }
+
+        h2 {
+            font-size: 28px;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        button {
+            margin-top: 25px;
+
+            padding: 15px 35px;
+
+            border: none;
+            border-radius: 30px;
+
+            background: white;
+            color: #07558c;
+
+            font-size: 18px;
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        .photos {
+            margin-top: 30px;
+
+            display: flex;
+            justify-content: center;
+
+            gap: 10px;
+        }
+
+        .photos img {
+            width: 100px;
+            height: 70px;
+
+            object-fit: cover;
+
+            border-radius: 10px;
+
+            border: 2px solid white;
+        }
+
+        @media (max-width: 600px) {
+
+            h1 {
+                font-size: 38px;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            .photos img {
+                width: 80px;
+                height: 55px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="welcome">
+
+        <div class="content">
+
+            <div class="logo">
+                🎓
             </div>
-
-            <div>
-                🌐 FR | AR | EN
-            </div>
-
-        </header>
-
-
-        <section class="main-hero">
 
             <h1>
-                Bienvenue 👋
+                ENSTP
             </h1>
 
+            <h2>
+                Guide d'étudiants d'ENSTP
+            </h2>
+
             <p>
-                Tout ce dont vous avez besoin
-                pour votre vie étudiante.
+                Bienvenue dans votre guide étudiant.
+                Découvrez l'ENSTP, l'enseignement,
+                la vie quotidienne et les services
+                utiles aux étudiants.
             </p>
 
-        </section>
+            <button onclick="commencer()">
+                🚀 Commencer
+            </button>
 
+            <div class="photos">
 
-        <div class="search-container">
+                <img
+                    src="592022075563311916_120.jpg"
+                    alt="Étudiants ENSTP"
+                >
 
-            <input
-                type="text"
-                class="search-box"
-                placeholder="🔍 Que cherchez-vous ?"
-            >
+                <img
+                    src="592022075563311918_120.jpg"
+                    alt="Étudiants ENSTP"
+                >
+
+            </div>
 
         </div>
 
-
-        <section class="sections">
-
-            <div class="card">
-                <div class="card-icon">🏫</div>
-
-                <h3>
-                    Qu'est-ce que l'ENSTP ?
-                </h3>
-
-                <p>
-                    Découvrez l'école.
-                </p>
-            </div>
-
-
-            <div class="card">
-                <div class="card-icon">📚</div>
-
-                <h3>
-                    Enseignement
-                </h3>
-
-                <p>
-                    Cours et informations pédagogiques.
-                </p>
-            </div>
-
-
-            <div class="card">
-                <div class="card-icon">🗺️</div>
-
-                <h3>
-                    Trouver ma salle
-                </h3>
-
-                <p>
-                    Trouvez votre salle ou votre département.
-                </p>
-            </div>
-
-
-            <div class="card">
-                <div class="card-icon">🏛️</div>
-
-                <h3>
-                    Administration
-                </h3>
-
-                <p>
-                    Scolarité et démarches administratives.
-                </p>
-            </div>
-
-
-            <div class="card">
-                <div class="card-icon">🍽️</div>
-
-                <h3>
-                    Vie quotidienne
-                </h3>
-
-                <p>
-                    Les informations utiles au quotidien.
-                </p>
-            </div>
-
-
-            <div class="card">
-                <div class="card-icon">🌍</div>
-
-                <h3>
-                    Tourisme
-                </h3>
-
-                <p>
-                    Découvrez Alger et ses environs.
-                </p>
-            </div>
-
-
-            <div class="card">
-                <div class="card-icon">🤖</div>
-
-                <h3>
-                    Assistant IA
-                </h3>
-
-                <p>
-                    Un assistant pour aider les étudiants.
-                </p>
-            </div>
-
-
-            <div class="card">
-                <div class="card-icon">➕</div>
-
-                <h3>
-                    Plus
-                </h3>
-
-                <p>
-                    De nouvelles sections pourront être ajoutées.
-                </p>
-            </div>
-
-        </section>
-
-
-        <footer>
-            © 2026 — Guide d'étudiants d'ENSTP
-        </footer>
-
     </section>
-
 
     <script>
 
-        function startWebsite() {
-
-            document
-                .getElementById("welcomePage")
-                .style.display = "none";
-
-            document
-                .getElementById("mainPage")
-                .style.display = "block";
-
-            window.scrollTo(0, 0);
+        function commencer() {
+            alert("Bienvenue dans Guide d'étudiants d'ENSTP !");
         }
 
     </script>
